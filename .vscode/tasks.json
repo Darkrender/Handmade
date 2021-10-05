@@ -1,13 +1,21 @@
 {
-    "tasks": [
-        {
-            "type": "shell",
-            "label": "Batch Build",
-            "command": "./build.bat",
-            "options": {
-                "cwd": "./"
-            },
-        },
-    ],
-    "version": "2.0.0"
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Batch Build",
+      "command": "./build.bat",
+      "options": {
+        "cwd": "./"
+      }
+    },
+    {
+      "type": "shell",
+      "label": "SH Build",
+      "command": "sh build.sh",
+      "options": {
+        "cwd": "./"
+      }
+    }
+  ],
+  "version": "2.0.0"
 }
