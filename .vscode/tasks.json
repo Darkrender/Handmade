@@ -1,0 +1,13 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Batch Build",
+            "command": "./build.bat",
+            "options": {
+                "cwd": "./"
+            },
+        },
+    ],
+    "version": "2.0.0"
+}
